@@ -3,11 +3,9 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    // The target score to win
-    private int targetScore = 10;
-    private int currentScore = 0;
+    private int targetScore = 30;
+    public int currentScore = 0;
 
-    // Singleton pattern to easily access GameManager from other scripts
     public static GameManager instance;
 
     private void Awake()
@@ -15,18 +13,18 @@ public class GameManager : MonoBehaviour
         if (instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(gameObject); // Keeps GameManager persistent between scenes
+            DontDestroyOnLoad(gameObject); 
         }
         else
         {
-            Destroy(gameObject); // Ensures there's only one GameManager
+            Destroy(gameObject);
         }
     }
 
-    // Method to increase the score
     public void AddScore()
     {
-        currentScore+= 5;
+        Debug.Log("score");
+        currentScore += 1;
 
         if (currentScore >= targetScore)
         {
@@ -34,13 +32,13 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    // Method to load the victory scene
     private void LoadVictoryScene()
     {
         SceneManager.LoadScene("Victory");
+        ResetScore();
     }
 
-    // Optional: Reset score if needed
+
     public void ResetScore()
     {
         currentScore = 0;
