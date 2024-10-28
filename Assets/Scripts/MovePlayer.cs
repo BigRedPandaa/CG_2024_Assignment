@@ -5,12 +5,12 @@ public class MovePlayer : MonoBehaviour
     public float moveSpeed = 5f;
     public float rotationSpeed = 700f;
 
-    private CharacterController controller;
-    private Vector3 moveDirection;
+    private CharacterController _controller;
+    private Vector3 _moveDirection;
 
     void Start()
     {
-        controller = GetComponent<CharacterController>();
+        _controller = GetComponent<CharacterController>();
     }
 
     void Update()
@@ -28,10 +28,10 @@ public class MovePlayer : MonoBehaviour
         Vector3 inputDirection = new Vector3(horizontal, 0, vertical).normalized;
 
         // Convert local movement direction based on player's rotation
-        moveDirection = transform.TransformDirection(inputDirection);
+        _moveDirection = transform.TransformDirection(inputDirection);
 
         // Apply movement
-        controller.Move(moveDirection * moveSpeed * Time.deltaTime);
+        _controller.Move(_moveDirection * moveSpeed * Time.deltaTime);
 
         // Rotate the player based on mouse input
         float mouseX = Input.GetAxis("Mouse X");

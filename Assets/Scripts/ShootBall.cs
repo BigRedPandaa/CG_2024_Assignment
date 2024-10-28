@@ -2,19 +2,13 @@ using UnityEngine;
 
 public class BallShooter : MonoBehaviour
 {
-    [SerilizedField] AudioSource SFXsource
-    public AudioClip Pew;
-
     public GameObject ballPrefab; // Assign the ball prefab in the inspector
     public Transform shootPoint; // The position where the ball will be instantiated (e.g., player's hand)
     public float shootForce = 500f; // Adjust the shooting force
 
-    AudioManager audioManager;
 
-    void shoot()
+    void Shoot()
     {
-        PlayShoot(Pew);
-
         // Instantiate the ball at the shootPoint's position and rotation
         GameObject ball = Instantiate(ballPrefab, shootPoint.position, shootPoint.rotation);
 
@@ -30,15 +24,11 @@ public class BallShooter : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         Debug.Log("detection");
-        if (other.CompareTag("Wall"))  // Ensure the walls have the "Wall" tag
+        if (other.CompareTag("Wall")) // Ensure the walls have the "Wall" tag
         {
             Debug.Log("hit");
-            Destroy(gameObject);  // Destroy the ball when it hits the wall
+            Destroy(gameObject); // Destroy the ball when it hits the wall
         }
     }
 
-    public void PlayShoot(AudioClip clip)
-    {
-        SFXsource.PlayOneShot(clip)
-    }
 }
