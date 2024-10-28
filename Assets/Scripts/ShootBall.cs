@@ -1,4 +1,6 @@
+using System;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class BallShooter : MonoBehaviour
 {
@@ -6,6 +8,13 @@ public class BallShooter : MonoBehaviour
     public Transform shootPoint; // The position where the ball will be instantiated (e.g., player's hand)
     public float shootForce = 500f; // Adjust the shooting force
 
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            Shoot();
+        }
+    }
 
     void Shoot()
     {
