@@ -679,8 +679,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   diffuseMaterial: {fileID: 2100000, guid: 46879a4312e73e0458b4cf495801d56d, type: 2}
-  specularMaterial: {fileID: 2100000, guid: 7f5c457644f426c40a7f8a4d5bdfede4, type: 2}
-  diffuseSpecularMaterial: {fileID: 2100000, guid: b3101a73ec3ea8a49b33e78717839bfe, type: 2}
+  specularMaterial: {fileID: 2100000, guid: acf429095d8617448873b9ce068d38eb, type: 2}
+  diffuseSpecularMaterial: {fileID: 2100000, guid: 87f8428ce06313243b0d004a4cb94ecd, type: 2}
 --- !u!1001 &8150855289938621136
 PrefabInstance:
   m_ObjectHideFlags: 0

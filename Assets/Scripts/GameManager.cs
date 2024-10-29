@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    private int targetScore = 30;
+    public int targetScore = 30;
     public int currentScore = 0;
 
     public static GameManager instance;

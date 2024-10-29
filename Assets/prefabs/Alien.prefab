@@ -164,7 +164,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 6
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -189,8 +189,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   diffuseMaterial: {fileID: 2100000, guid: 5baf49fb44628cd4684104515348c5b8, type: 2}
-  specularMaterial: {fileID: 2100000, guid: 584357cf3328b624fbb23f821009bf7a, type: 2}
-  diffuseSpecularMaterial: {fileID: 2100000, guid: 26b519b66d07a1344ac09311b69ddede, type: 2}
+  specularMaterial: {fileID: 2100000, guid: 136ab6a91416fc04d9cd53d15a348a68, type: 2}
+  diffuseSpecularMaterial: {fileID: 2100000, guid: 111d1a2e860724149b9a7ba6e5fef757, type: 2}
 --- !u!1 &8709573334095850802
 GameObject:
   m_ObjectHideFlags: 0
@@ -426,8 +426,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   diffuseMaterial: {fileID: 2100000, guid: 5baf49fb44628cd4684104515348c5b8, type: 2}
-  specularMaterial: {fileID: 2100000, guid: 584357cf3328b624fbb23f821009bf7a, type: 2}
-  diffuseSpecularMaterial: {fileID: 2100000, guid: 26b519b66d07a1344ac09311b69ddede, type: 2}
+  specularMaterial: {fileID: 2100000, guid: 136ab6a91416fc04d9cd53d15a348a68, type: 2}
+  diffuseSpecularMaterial: {fileID: 2100000, guid: 111d1a2e860724149b9a7ba6e5fef757, type: 2}
 --- !u!4 &7498867765980176575 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 19d846fbad7b7174ca9733e87c4a724d, type: 3}

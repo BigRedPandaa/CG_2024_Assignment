@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Aln.SpecDiff
-  m_Shader: {fileID: 4800000, guid: 4e46842a0f004b648983baba0ab5d58c, type: 3}
+  m_Name: Flr.Diffuse 1
+  m_Shader: {fileID: 4800000, guid: f1598e14448eda84ba5673643c1016b3, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -72,14 +72,12 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Shininess: 0.1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.3207547, g: 0, b: 0, a: 1}
+    - _Color: {r: 0.39538127, g: 0.23371306, b: 0.49056602, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _SpecColor: {r: 0.7169812, g: 0, b: 0.106409796, a: 1}
   m_BuildTextureStacks: []

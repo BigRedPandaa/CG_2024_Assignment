@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Wall.Spec
+  m_Name: aln.Spacular
   m_Shader: {fileID: 4800000, guid: 9a28c033fed06794f9bfcd8b7e8b2cf9, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -45,7 +45,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
-        m_Scale: {x: -1.53, y: 1}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
@@ -66,20 +66,21 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0.5
+    - _Glossiness: 0.866
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Shininess: 0.03
+    - _Shininess: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 1}
+    - _Color: {r: 0.6132076, g: 0, b: 0.10732636, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _SpecColor: {r: 0.254717, g: 0.254717, b: 0.254717, a: 1}
+    - _SpecColor: {r: 0.11243981, g: 0.3584906, b: 0.049038816, a: 1}
+    - _SpecularColor: {r: 0.3584906, g: 0.12344251, b: 0.12344251, a: 1}
   m_BuildTextureStacks: []

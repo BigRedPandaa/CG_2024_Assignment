@@ -5,10 +5,12 @@ public class ScoreDisplay : MonoBehaviour
 {
     public TextMeshProUGUI scoreText; // Assign your TMP text component in the Inspector
     private int currentScore = 0;
+    private int target = 0;
 
     private void Start()
     {
         UpdateScoreDisplay();
+        target = GameManager.instance.targetScore;
     }
 
     // Call this method to increase the score
@@ -21,6 +23,6 @@ public class ScoreDisplay : MonoBehaviour
     // Method to update the score display
     private void UpdateScoreDisplay()
     {
-        scoreText.text = "Score: " + currentScore.ToString();
+        scoreText.text = "Score: " + currentScore.ToString() + "/" + target;
     }
 }
