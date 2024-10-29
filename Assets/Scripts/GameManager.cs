@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public int targetScore = 5;
+    public int targetScore = 30;
     public int currentScore = 0;
 
     public static GameManager instance;
