@@ -1,3 +1,4 @@
+
 using UnityEngine;
 
 public class ShaderSwitcher : MonoBehaviour
@@ -9,6 +10,7 @@ public class ShaderSwitcher : MonoBehaviour
     private Renderer _renderer;
     private int _currentShaderIndex = 0;
 
+
     void Start()
     {
         _renderer = GetComponent<Renderer>();
@@ -19,6 +21,7 @@ public class ShaderSwitcher : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
+
             _currentShaderIndex = (_currentShaderIndex + 1) % 3;
             SetShader();
         }

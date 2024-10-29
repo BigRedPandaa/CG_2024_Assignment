@@ -3,7 +3,7 @@ using TMPro;
 
 public class ScoreDisplay : MonoBehaviour
 {
-    public TextMeshProUGUI scoreText; // Assign your TMP text component in the Inspector
+    public TextMeshProUGUI scoreText; 
     private int currentScore = 0;
     private int target = 0;
 
@@ -13,14 +13,12 @@ public class ScoreDisplay : MonoBehaviour
         target = GameManager.instance.targetScore;
     }
 
-    // Call this method to increase the score
     private void Update()
     {
         currentScore = GameManager.instance.currentScore;
         UpdateScoreDisplay();
     }
 
-    // Method to update the score display
     private void UpdateScoreDisplay()
     {
         scoreText.text = "Score: " + currentScore.ToString() + "/" + target;

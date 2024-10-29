@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 57d59d02e597b7144a04a07d90861592
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - NoLUT: {fileID: 2100000, guid: aa536a0fb36ee6c4b9da8cad71f7c423, type: 2}
+  - WarmLUT: {fileID: 2100000, guid: 6993b17488433684083e64e64b95d19b, type: 2}
+  - ShadyLUT: {instanceID: 0}
+  - CustomLUT: {fileID: 2100000, guid: eb07d8988fcfd7e4491d5ab588d3ec4c, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
