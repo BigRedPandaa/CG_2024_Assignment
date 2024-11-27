@@ -60,4 +60,17 @@ My project feels retro Sci-fi and the over saturated retro colouration really ma
 
 -----------------------------
 
+ASSIGNMENT.1 (11-26-2024) Update
+
+Resources: 
+	
+	Water Texture - https://www.istockphoto.com/photos/ocean-water-texture
+	Skybox - https://assetstore.unity.com/packages/2d/textures-materials/diverse-space-skybox-11044?srsltid=AfmBOoqhkDFY5d7Rm6WfX5o6LjSMA-D42ngpx7QRSPQySh6uq3ohvASQ
+
+	Documentation - https://docs.google.com/document/d/1UDTLkFGRTVmhuPCuNT4dA6o2xsqoLV6FeaCDjKqQQRU/edit?tab=t.0
+	Video - https://youtu.be/tv8NEI247ns
+
+
+
+
 
