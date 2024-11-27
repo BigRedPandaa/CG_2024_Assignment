@@ -6,6 +6,8 @@ public class ShaderSwitcher : MonoBehaviour
     public Material diffuseMaterial;
     public Material specularMaterial;
     public Material diffuseSpecularMaterial;
+    public Material OutlineShader;
+
 
     private Renderer _renderer;
     private int _currentShaderIndex = 0;
@@ -22,7 +24,7 @@ public class ShaderSwitcher : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
 
-            _currentShaderIndex = (_currentShaderIndex + 1) % 3;
+            _currentShaderIndex = (_currentShaderIndex + 1) % 4;
             SetShader();
         }
     }
@@ -39,6 +41,9 @@ public class ShaderSwitcher : MonoBehaviour
                 break;
             case 2:
                 _renderer.material = diffuseSpecularMaterial;
+                break;
+            case 3:
+                _renderer.material = OutlineShader;
                 break;
         }
     }
