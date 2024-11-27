@@ -2269,8 +2269,6 @@ GameObject:
   - component: {fileID: 623319039}
   - component: {fileID: 623319038}
   - component: {fileID: 623319043}
-  - component: {fileID: 623319042}
-  - component: {fileID: 623319044}
   m_Layer: 0
   m_Name: Glass
   m_TagString: Wall
@@ -2365,20 +2363,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &623319042
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 623319037}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67b6e7e5340b7cf4794ec59db20c1902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Textured: {fileID: 0}
-  Untextured: {fileID: 0}
 --- !u!114 &623319043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2393,20 +2377,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Textured: {fileID: 2100000, guid: 6a6bd0eb2cfb5d7418d6adc4c28ba147, type: 2}
   Untextured: {fileID: 2100000, guid: 11809e3adfe274147a6070bbf56d3dde, type: 2}
---- !u!114 &623319044
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 623319037}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67b6e7e5340b7cf4794ec59db20c1902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Textured: {fileID: 0}
-  Untextured: {fileID: 0}
 --- !u!1 &738060678
 GameObject:
   m_ObjectHideFlags: 0
