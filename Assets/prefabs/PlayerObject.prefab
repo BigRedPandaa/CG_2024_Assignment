@@ -821,6 +821,7 @@ MonoBehaviour:
   diffuseMaterial: {fileID: 2100000, guid: 44ebe5334afe6f746b5c746ccc8c48e4, type: 2}
   specularMaterial: {fileID: 2100000, guid: 403ff0b5f396c4646b6ac1b4433f172b, type: 2}
   diffuseSpecularMaterial: {fileID: 2100000, guid: 509f0faaf5ab8f74bb71b87180da69ed, type: 2}
+  AmbientMaterial: {fileID: 2100000, guid: 62615a3ae643e9045a5e77cba27fc7b0, type: 2}
   OutlineShader: {fileID: 2100000, guid: 3abc62cc305016d4590be9badfe7bc8d, type: 2}
 --- !u!1 &3757735096876834229 stripped
 GameObject:
@@ -842,6 +843,7 @@ MonoBehaviour:
   diffuseMaterial: {fileID: 2100000, guid: 44ebe5334afe6f746b5c746ccc8c48e4, type: 2}
   specularMaterial: {fileID: 2100000, guid: 403ff0b5f396c4646b6ac1b4433f172b, type: 2}
   diffuseSpecularMaterial: {fileID: 2100000, guid: 509f0faaf5ab8f74bb71b87180da69ed, type: 2}
+  AmbientMaterial: {fileID: 0}
   OutlineShader: {fileID: 2100000, guid: 3abc62cc305016d4590be9badfe7bc8d, type: 2}
 --- !u!1001 &912614026726133563
 PrefabInstance:
@@ -973,6 +975,7 @@ MonoBehaviour:
   diffuseMaterial: {fileID: 2100000, guid: 46879a4312e73e0458b4cf495801d56d, type: 2}
   specularMaterial: {fileID: 2100000, guid: acf429095d8617448873b9ce068d38eb, type: 2}
   diffuseSpecularMaterial: {fileID: 2100000, guid: 87f8428ce06313243b0d004a4cb94ecd, type: 2}
+  AmbientMaterial: {fileID: 2100000, guid: 624a2250df247304ea858752c9209015, type: 2}
   OutlineShader: {fileID: 2100000, guid: ca43c57e104f3314abbc0cf59b325cb0, type: 2}
 --- !u!4 &6790695192666820042 stripped
 Transform:
